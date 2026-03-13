@@ -7,8 +7,8 @@ int solduvarmax = 800;
 int sagduvarideal = 150; // SAĞ duvar takip mesafesi ayarlanır. 
 int solduvarideal = 150;  // SOL duvar takip mesafesi ayarlanır.
 // ================================================================ kullanıcı robot ayarları
-int SPD = 205; // ROBOTUN HIZI
-int On_Duvar_Mesafe=450; // ön  engel algılama değeri ; çarpma varsa değeri  azar azar arttırın ,  EN FAZLA 15CM OLMASINA DİKKAT EDİN  
+int SPD = 190; // ROBOTUN HIZI
+int On_Duvar_Mesafe=600; // ön  engel algılama değeri ; çarpma varsa değeri  azar azar arttırın ,  EN FAZLA 15CM OLMASINA DİKKAT EDİN  
 float sag_u_kp=1.1; // artarsa u dönüş dar alır azalırsa geniş alır
 float sol_u_kp=1.1; // artarsa u dönüş dar alır azalırsa geniş alır
 
@@ -292,3 +292,4 @@ void loop() {
     lastControlTime = simdikiZaman;
   }
 }
+
