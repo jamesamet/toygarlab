@@ -157,7 +157,7 @@ void loop() {
 
   
   // ================================================================  zamana gore yon değiştirme işlemleri şuan pasif 
-     //zamantakipyon();
+     zamantakipyon();
   // ================================================================  
   
    // ================================================================  // STOP basıldı mı kontrol et   kumanda ile başlatma varsa aktif et
@@ -292,4 +292,5 @@ void loop() {
     lastControlTime = simdikiZaman;
   }
 }
+
 
